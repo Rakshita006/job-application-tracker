@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 import Application from "./pages/Application";
 import EditApplication from "./pages/EditApplication";
 import Profile from "./pages/Profile";
-import Footer from "./pages/footer"; 
+import Footer from "./pages/Footer"; 
 
 function App() {
   return (
