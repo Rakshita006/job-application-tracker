@@ -14,7 +14,7 @@ const app=express()
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://job-application-tracker-seven-tau.vercel.app"
+    "https://job-application-tracker-two-ecru.vercel.app"
   ], // your React app
   credentials: true
 }));
