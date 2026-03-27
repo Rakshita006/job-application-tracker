@@ -1,10 +1,9 @@
 import axios from "axios";
 
 
-const BASE_URL = import.meta.env.VITE_BASE_URL;
-
 const API = axios.create({
-  baseURL: `http://${BASE_URL}`,
+  baseURL: import.meta.env.VITE_BASE_URL, // use the env variable directly
+  withCredentials: true, // if your backend uses cookies or auth
 });
 
 
