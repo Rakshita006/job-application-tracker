@@ -12,7 +12,10 @@ dotenv.config();
 const app=express()
 
 app.use(cors({
-  origin: "http://localhost:5173", // your React app
+  origin: [
+    "http://localhost:5173",
+    "https://job-application-tracker-seven-tau.vercel.app"
+  ], // your React app
   credentials: true
 }));
 app.use(express.json())
